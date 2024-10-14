@@ -1,0 +1,17 @@
+.principal
+{
+    padding: 20px;
+    background-color: darkgray;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: "contenido"
+                         "footer";
+}
+.principal .contenido
+{
+    grid-area: contenido;
+}
+.principal .footer
+{
+    grid-area: footer;
+}

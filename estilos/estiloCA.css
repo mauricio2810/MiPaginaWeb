@@ -1,0 +1,20 @@
+.padre1
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header1"
+                         "texto";
+}
+.padre1 .header1
+{
+    display: grid;
+    justify-items: center;
+    background-color: navy;
+    grid-area: header1;
+}
+.padre1 .texto
+{
+    background-color: silver;
+    padding: 30PX;
+    grid-area: texto;
+}
